@@ -35,7 +35,7 @@ if __name__ == '__main__':
         # Puerto espcificado en línea de comando
         port = int(sys.argv[1])
     except:
-        # Puerto por defecto por el corre el API
+        # Puerto por defecto por el que corre el API
         port = 23456
     
     app.run(port=port, debug=True)

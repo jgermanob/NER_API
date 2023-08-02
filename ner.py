@@ -1,15 +1,20 @@
+"""
+Script auxiliar para obtención de entidades nombradas utilizando la biblioteca 
+SpaCy u el modelo en español 'es_core_news_sm'
+"""
+
 import spacy
 from spacy import displacy
 
 nlp = spacy.load('es_core_news_sm')
 
 """
-Función get_ner para obtención de entidades nombradas de un texto.
+Función para obtención de entidades nombradas de un texto.
 Entrada:
     - Texto crudo de entrada
 Salida:
     - Dicionario que contiene los siguientes campos:
-        1) 'oracion': contiene el texto de crudo de entrada
+        1) 'oracion': contiene el texto crudo de entrada
         2) 'entidades': contiene un diccionario con todas las entidades nombradas 
                         presentes en el texto con el formato 'entidad':etiqueta.
 """
