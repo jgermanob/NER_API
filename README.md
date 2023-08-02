@@ -10,7 +10,7 @@
 
 * Abrir una terminal y ejecutar el comando `python3 api.py`.
 
-* Abrir la plataforma Postamn API y crear un nuevo _Request_ HTTP, seleccionar el método _POST_ e introducir la url `http://127.0.0.1:23456/predict`.
+* Abrir la plataforma Postman API y crear un nuevo _Request_ HTTP, seleccionar el método _POST_ e introducir la url `http://127.0.0.1:23456/predict` (en caso de modificar el puerto, también es necesario modificar la URL).
 
 * Seleccionar la opción _Body_, marcar la casilla _raw_ y elegir el formato _JSON_ en el menú desplegable.
 
